@@ -15,29 +15,29 @@ Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs d
 `%%`: Imprimer un signe de pourcentage. <br>
 
 # Exemple d'affichage :
-`Lettre : A` <br>
+Lettre : A <br>
 ft_printf("Lettre : %c\n", 'A'); <br>
 
-`Chaîne : Bonjour` <br>
+Chaîne : Bonjour <br>
 ft_printf("Chaîne : %s\n", "Bonjour"); <br>
 
-`void *ptr = (void *)0x1234abcd` <br>
+void *ptr = (void *)0x1234abcd <br>
 ft_printf("Pointeur : %p\n", ptr); <br>
 
-`Décimal : 42` <br>
+Décimal : 42 <br>
 ft_printf("Décimal : %d\n", 42); <br>
 
-`Entier : -42` <br>
+Entier : -42 <br>
 ft_printf("Entier : %i\n", -42); <br>
 
-`Unsigned : 3000000000` <br>
+Unsigned : 3000000000 <br>
 ft_printf("Unsigned : %u\n", 3000000000); <br>
 
-`Hex min : ff` <br>
+Hex min : ff <br>
 ft_printf("Hex min : %x\n", 255); <br>
 
-`Hex maj : FF` <br>
+Hex maj : FF <br>
 ft_printf("Hex maj : %X\n", 255); <br>
 
-`Pourcentage : %` <br>
+Pourcentage : % <br>
 ft_printf("Pourcentage : %%\n"); <br>
