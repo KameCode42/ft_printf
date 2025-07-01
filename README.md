@@ -14,6 +14,14 @@ Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs d
 `%X` : Imprimer un nombre en format hexadécimal en lettres majuscules (base 16). <br>
 `%%`: Imprimer un signe de pourcentage. <br>
 
+# Fonctionnement
+- Parcours la chaine de caractère jusqu'au '\0'
+- Si le caractère actuel égale %, i++ qui fait passer au caractère suivant
+- Check_format est la fonction qui permet de savoir quel format sera affiché sur le terminal
+- Ce qu'il se trouve avant ou après le % est simplement affiché tel quel
+
+<br>
+
 # Exemple d'affichage :
 Lettre : A <br>
 ft_printf("Lettre : %c\n", 'A'); <br>
@@ -41,9 +49,3 @@ ft_printf("Hex maj : %X\n", 255); <br>
 
 Pourcentage : % <br>
 ft_printf("Pourcentage : %%\n"); <br>
-
-# Fonctionnement
-- Parcours la chaine de caractère jusqu'au '\0'
-- Si le caractère actuel égale %, i++ qui fait passer au caractère suivant
-- Check_format est la fonction qui permet de savoir quel format sera affiché sur le terminal
-- Ce qu'il se trouve avant ou après le % est simplement affiché tel quel
