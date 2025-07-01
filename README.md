@@ -41,3 +41,9 @@ ft_printf("Hex maj : %X\n", 255); <br>
 
 Pourcentage : % <br>
 ft_printf("Pourcentage : %%\n"); <br>
+
+# Fonctionnement
+- Parcours la chaine de caractère jusqu'au '\0'
+- Si le caractère actuel égale %, i++ qui fait passer au caractère suivant
+- Check_format est la fonction qui permet de savoir quel format sera affiché sur le terminal
+- Ce qu'il se trouve avant ou après le % est simplement affiché tel quel
