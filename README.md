@@ -15,21 +15,33 @@ Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs d
 %% : Imprimer un signe de pourcentage. <br>
 
 # Exemple d'affichage :
-ft_printf("Lettre : %c\n", 'A'); // Lettre : A
+Lettre : A <br>
+ft_printf("Lettre : %c\n", 'A'); <br>
 
-ft_printf("Chaîne : %s\n", "Bonjour"); // Chaîne : Bonjour
+Chaîne : Bonjour <br>
+ft_printf("Chaîne : %s\n", "Bonjour"); <br>
 
-void *ptr = (void *)0x1234abcd;
-ft_printf("Pointeur : %p\n", ptr); // Pointeur : 0x1234abcd
+void *ptr = (void *)0x1234abcd; <br>
+ft_printf("Pointeur : %p\n", ptr); <br>
 
-ft_printf("Décimal : %d\n", 42); // Décimal : 42
+ft_printf("Décimal : %d\n", 42); <br>
 
-ft_printf("Entier : %i\n", -42); // Entier : -42
+ft_printf("Décimal : %d\n", 42); <br>
 
-ft_printf("Unsigned : %u\n", 3000000000); // Unsigned : 3000000000
+Décimal : 42 <br>
+ft_printf("Décimal : %d\n", 42); <br>
 
-ft_printf("Hex min : %x\n", 255); // Hex min : ff
+Entier : -42 <br>
+ft_printf("Entier : %i\n", -42); <br>
 
-ft_printf("Hex maj : %X\n", 255); // Hex maj : FF
+Unsigned : 3000000000 <br>
+ft_printf("Unsigned : %u\n", 3000000000); <br>
 
-ft_printf("Pourcentage : %%\n"); // Pourcentage : %
+Hex min : ff <br>
+ft_printf("Hex min : %x\n", 255); <br>
+
+Hex maj : FF <br>
+ft_printf("Hex maj : %X\n", 255); <br>
+
+Pourcentage : % <br>
+ft_printf("Pourcentage : %%\n"); <br>
