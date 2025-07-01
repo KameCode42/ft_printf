@@ -4,15 +4,15 @@
 Le projet ft_printf consiste à réimplémenter la fonction C printf, permettant d'afficher du texte formaté dans le terminal. <br>
 
 Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs de format tel que : <br>
-%c : Imprimer un seul caractère. <br>
-%s : Imprimer une chaîne de caractères. <br>
-%p : Imprimer un pointeur void * en format hexadécimal. <br>
-%d : Imprimer un nombre décimal (base 10). <br>
-%i : Imprimer un entier en base 10. <br>
-%u : Imprimer un nombre décimal non signé (base 10). <br>
-%x : Imprimer un nombre en format hexadécimal en lettres minuscules (base 16). <br>
-%X : Imprimer un nombre en format hexadécimal en lettres majuscules (base 16). <br>
-%% : Imprimer un signe de pourcentage. <br>
+`%c` : Imprimer un seul caractère. <br>
+`%s` : Imprimer une chaîne de caractères. <br>
+`%p` : Imprimer un pointeur void * en format hexadécimal. <br>
+`%d` : Imprimer un nombre décimal (base 10). <br>
+`%i` : Imprimer un entier en base 10. <br>
+`%u` : Imprimer un nombre décimal non signé (base 10). <br>
+`%x` : Imprimer un nombre en format hexadécimal en lettres minuscules (base 16). <br>
+`%X` : Imprimer un nombre en format hexadécimal en lettres majuscules (base 16). <br>
+`%%`: Imprimer un signe de pourcentage. <br>
 
 # Exemple d'affichage :
 Lettre : A <br>
