@@ -1,9 +1,9 @@
 ![FT_PRINTF](https://github.com/user-attachments/assets/05be681d-d5c3-4edc-adaf-ca76656be458)
 
 # Sujet :
-Le projet ft_printf consiste à réimplémenter la fonction C printf, permettant d'afficher du texte formaté dans le terminal.
+Le projet ft_printf consiste à réimplémenter la fonction C printf, permettant d'afficher du texte formaté dans le terminal. <br>
 
-Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs de format tel que :
+Il faut gérer l'affichage d'une chaîne de caractères avec des modificateurs de format tel que : <br>
 %c : Imprimer un seul caractère. <br>
 %s : Imprimer une chaîne de caractères. <br>
 %p : Imprimer un pointeur void * en format hexadécimal. <br>
