@@ -1,4 +1,4 @@
-![FT_PRINTF](https://github.com/user-attachments/assets/05be681d-d5c3-4edc-adaf-ca76656be458)
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/86f688f6-e9f3-4545-8800-d90b80e27fb6" />
 
 # Sujet :
 Le projet ft_printf consiste à réimplémenter la fonction C printf, permettant d'afficher du texte formaté dans le terminal. <br>
