@@ -1,4 +1,4 @@
-<img width="720" height="720" alt="Image" src="https://github.com/user-attachments/assets/86f688f6-e9f3-4545-8800-d90b80e27fb6" />
+<img width="720" height="450" alt="Image" src="https://github.com/user-attachments/assets/86f688f6-e9f3-4545-8800-d90b80e27fb6" />
 
 # Sujet :
 Le projet ft_printf consiste à réimplémenter la fonction C printf, permettant d'afficher du texte formaté dans le terminal. <br>
